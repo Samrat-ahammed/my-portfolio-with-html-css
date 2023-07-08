@@ -1,6 +1,7 @@
 /* common shsre style */
 body {
   font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .btn-primary {
@@ -23,6 +24,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
@@ -44,4 +46,19 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* header related class */
+.header {
+  background: #fff8f3;
+}
+
+.banner {
+  padding: 30px 30px 30px150px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .profilePicture {
+  width: 500px;
 }
