@@ -5,6 +5,7 @@ body {
 }
 
 .btn-primary {
+  margin-left: 20px;
   border-radius: 5px;
   background: #fd6e0a;
   border: 0;
@@ -51,14 +52,44 @@ nav a {
 /* header related class */
 .header {
   background: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-  padding: 30px 30px 30px150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
 }
-
+.banner-contant {
+  max-width: 500px;
+}
 .banner .profilePicture {
   width: 500px;
+  justify-content: baseline space-between;
 }
+.banner-greeting {
+  font-size: 45px;
+
+  color: #474747;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.banner-description {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: var(--dark-03, #757575);
+}
+
+/* main section style */
